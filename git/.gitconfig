@@ -27,8 +27,13 @@
   #short commands
   co = checkout
   cb = checkout -b
-  po = push origin
+  pso = push origin
+  plo = pull origin
   codev = checkout develeopment
+  psod = push origin development
+  plod = pull origin development
+  psom = push origin master
+  plom = pull origin master
   coma = checkout master
 
 [format]
