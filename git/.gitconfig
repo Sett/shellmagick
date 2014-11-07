@@ -29,12 +29,13 @@
   cb = checkout -b
   pso = push origin
   plo = pull origin
-  codev = checkout develeopment
+  cod = checkout develeopment
   psod = push origin development
   plod = pull origin development
   psom = push origin master
   plom = pull origin master
   coma = checkout master
+  nb = checkout -b 
 
 [format]
   pretty = format:%C(blue)%ad%Creset %C(yellow)%h%C(green)%d%Creset %C(blue)%s %C(magenta) [%an]%Creset
@@ -69,7 +70,5 @@
   # http://gitfu.wordpress.com/2008/04/20/git-rerere-rereremember-what-you-did-last-time/
   enabled = true
 [user]
-	name = Max Prokopiev
-	email = me@maxprokopiev.com 
-[credential]
-	helper = osxkeychain
+	name = sett
+	email = what4me@yandex.ru
